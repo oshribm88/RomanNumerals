@@ -7,7 +7,7 @@ public class RomanNumerals {
 	public String toRoman(int number) {
 
 		String roman = ""; 
-		for (int i = 0; i < ROME.length; i++) {
+		for (int i = 1; i < ROME.length; i++) {
 			while (number >= DEC[i]) {
 				number -= DEC[i];
 				roman += ROME[i];
