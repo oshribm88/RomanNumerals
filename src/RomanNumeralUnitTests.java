@@ -24,6 +24,8 @@ public class RomanNumeralUnitTests {
 		assertEquals("DL", number.toRoman(550));
 		assertEquals("DCCLXXVIII", number.toRoman(778));
 		assertEquals("MDLXXVI", number.toRoman(1576));
+		assertEquals("MMCMXCIV", number.toRoman(2994));
+
 
 
 
